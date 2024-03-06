@@ -1,3 +1,4 @@
+alert("Juego de piedra papel o tijera. Primero : Elige un numero de partidas. Segundo: escribe en minusculas una de estas tres opciones y clickea la tecla enter")
 let numberOfGames = parseInt(prompt("ingrese numero de juegos"));
 const choices = ["tijera", "papel", "piedra"]
 var wins = 0;
