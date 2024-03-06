@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;   
+    background-color: black;
+}
+
+.contenedor{
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.contenedor-2{
+    margin: 125px 125px 125px 125px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagen{
+    height: 200px;
+    width: 200px;
+}
+
+.img-1{
+    
+    background-image: url("./../img/mano.jpg");
+    background-position: center;
+    background-repeat: none;
+}
+
+.img-2{
+    
+    background-image: url("./../img/tijera.jpg");
+    background-position: center;
+    background-repeat: none;
+}
+
+.contenedor-3{
+    color: white;
+}
