@@ -49,6 +49,7 @@ for (let i = 0; i < numberOfGames; i++){
         }
         break;  
         default: alert("Escriba una de las tres opciones, con minusculas. Pierdes un juego.")
+        lost += 1;
         break;
     }
     winsSpan.innerHTML = wins;
