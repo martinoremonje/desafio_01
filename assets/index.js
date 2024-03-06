@@ -8,6 +8,8 @@ let winsSpan = document.getElementById("wins");
 let tiesSpan = document.getElementById("ties");
 let losesSpan = document.getElementById("loses");
 let numberGames = document.getElementById("numberGames")
+numberGames.textContent = numberOfGames;
+
 
 for (let i = 0; i < numberOfGames; i++){
     let randomChoice = choices[Math.floor(Math.random() * 3)]
@@ -52,5 +54,4 @@ for (let i = 0; i < numberOfGames; i++){
     winsSpan.innerHTML = wins;
     tiesSpan.innerHTML = ties;
     losesSpan.innerHTML = lost;
-    numberGames.innerHTML = numberOfGames;
 }
